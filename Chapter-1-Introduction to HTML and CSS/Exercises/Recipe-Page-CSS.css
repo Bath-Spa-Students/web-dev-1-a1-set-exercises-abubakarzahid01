@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #513619;/*White background color*/
+    color:#fefefe;/*Dark text color*/
+    padding: 20px;
+    margin: 0;/*Remove default margin*/
+}
+h1{
+    font-family:'Young Serif,' serif;
+    font-size: 36px;
+    color: #ab3c09/*White text color*/;
+    text-align: center;
+    text-shadow:2px 2px 2px #888;
+    background-image: url('https://www.foodandwine.com/thmb/QRYKO8zoBeWhLCvkxuTgOo8zu0s=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Chicken-Biryani-FT-RECIPE0823-9d51c6e665ec4c9daa45162841e2f034.jpg');/*Background Image*/
+    background-size: cover;
+    padding: 70px;
+    border-radius: 5px;
+}
+h2{
+    font-size:'Times New Roman', Times, serif;
+    font-size: 24px;
+    color:#0904147d;/*Tomato color*/
+    text-shadow: 1px 1px 1px#888;
+}
+p{
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+}
+ul ol{
+    margin-top: 0;
+    margin-bottom: 20px;
+
+}
+li {
+    margin-left: 20px;
+}
+.recipe-image {
+    position: absolute;
+    top: 290px;
+    left: 1100px;  
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 300px;
+    height: 300px;
+}
+.recipe-image1 {
+    position: absolute;
+    top: 600px;
+    left: 1120px;  
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 260px;
+    height: 260px;
+}
+.detail {
+    font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: rgb(254, 254, 254)
+}
