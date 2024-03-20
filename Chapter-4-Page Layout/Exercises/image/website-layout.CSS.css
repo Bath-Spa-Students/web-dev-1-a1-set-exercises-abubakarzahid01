@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    color: #FFFFFF;
+}
+
+header {
+    font-family: Tahoma;
+    text-align: center;
+    background-color: #17072b;
+}
+
+header > h1 
+{
+    font-size: 40px;
+    padding: 24px;
+    width: auto;
+    display: inline-block;
+    font-family:"Tahoma";
+    padding-bottom: 0;
+    border-bottom: 8px solid;
+}
+
+header > nav
+{
+    padding-bottom: 20px;
+}
+
+header > nav > a
+{
+    padding: 24px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+header > nav > a:hover
+{
+    color: plum;
+}
+
+div#flex 
+{
+    display: flex;
+}
+
+div#flex > div:nth-child(1)
+{
+    flex-basis: 30%;
+}
+
+div#flex > div
+{
+    flex: 1;
+}
+
+div#flex > div#welcome 
+{
+    padding: 0 0 10px 25px;
+}
+
+div#flex > div#welcome > h1
+{
+    color: black;
+    font-size: 26px;
+    display: inline-block;
+    margin-bottom: 0;
+    border-bottom: 5px solid;
+}
+
+div#flex > div#welcome > p
+{
+    color: #000000;
+    font-size: 21px;
+    width: 96%;
+}
+
+img#code
+{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 440px;
+}
+
+div#flex > div#side
+{
+    margin: 10px 0 10px 10px;
+    background-color: #172d67;
+    padding: 0 10px 0;
+    width: 100%;
+}
+
+div#flex > div#side > h1
+{
+    color: white;
+    font-size: 26px;
+    display: inline-block;
+    margin-left: 15px;
+    margin-bottom: 0;
+    border-bottom: 5px solid;
+}
+
+div#flex > div#side > p
+{
+    color: white;
+    font-size: 29px;
+    margin-left: 20px;
+}
+
+div#sideflex
+{
+    margin-left: 20px;
+    display: flex;
+}
+
+div#sideflex > div#square
+{
+    flex: 50%;
+    padding: 5px;
+}
+
+img#circuit 
+{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer
+{
+    display: block;
+    bottom: 0;
+    background-color: #8c15e9;
+    text-align: center;
+    padding: 5px;
+    font-size: 21px;
+    position: fixed;
+    width: 100%;
+}
