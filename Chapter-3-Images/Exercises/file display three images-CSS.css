@@ -1,0 +1,44 @@
+body {
+    margin: 100px auto;
+    width: max-content;
+    font-family: Arial, sans-serif;
+}
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+header h1 {
+    font-size: 36px;
+    color: #333; 
+    text-shadow: 2px 2px 4px #888; 
+}
+.container {
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+}
+
+.container > div {
+    margin: 0 10px;
+    text-align: center;
+    flex: 0 0 auto;
+}
+.container > div img {
+    border: 4px solid black;
+    filter: grayscale(100%); 
+}
+
+#image1 img:hover {
+    filter: invert();
+}
+
+#image2 img:hover {
+    filter: blur();
+}
+#image3 img:hover {
+    filter: hue-rotate();
+}
+
+h1 {
+    text-align: center;
+}
