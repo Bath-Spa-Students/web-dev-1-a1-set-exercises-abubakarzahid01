@@ -33,7 +33,7 @@ header h1 {
 }
 
 #image2 img:hover {
-    filter: blur();
+    filter: sepia();
 }
 #image3 img:hover {
     filter: hue-rotate();
