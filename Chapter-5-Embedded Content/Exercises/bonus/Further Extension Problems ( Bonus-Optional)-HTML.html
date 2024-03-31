@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alan Partridge Soundboard</title>
+    <link rel="stylesheet" href="Further Extension Problems ( Bonus-Optional)-CSS.css">
+</head>
+<body>
+
+    <h1>Alan partridge soundboard</h1>
+
+    <div class="grid-container">
+        <div class="sample" data-audio="Audio Sampler/Audio/ah-ha.mp3">ah-ha</div>
+        <div class="sample" data-audio="Audio Sampler/Audio/back-of-the-net.mp3">back-of-the-net</div>
+        <div class="sample" data-audio="Audio Sampler/Audio/bangoutoforder.mp3">bangoutoforder</div>
+        <div class="sample" data-audio="Audio Sampler/Audio/dan.mp3">dan</div>
+        <div class="sample" data-audio="Audio Sampler/Audio/emailoftheevening.mp3">emailoftheevening</div>
+        <div class="sample" data-audio="Audio Sampler/Audio/hellopartridge.mp3">hellopartridge</div>
+        <div class="sample" data-audio="Audio Sampler/Audio/iateascotchegg.mp3">iateascotchegg</div>
+        <div class="sample" data-audio="Audio Sampler/Audio/imconfused.mp3">imconfused</div>
+    </div> 
+
+    <footer>
+        <p>&copy; For more information, visit the</p>
+    </footer>
+
+    <audio id="audioPlayer" preload="auto"></audio>
+    
+    <script src="Further Extension Problems ( Bonus-Optional)-index.js"></script>
+    <script>
+        function textToAudio() {
+            let msg = document.getElementById("text-to-speech").value;
+            let speech = new SpeechSynthesisUtterance();
+            speech.lang = "en-US";
+            speech.text = msg;
+            speech.volume = 1;
+            speech.rate = 1;
+            speech.pitch = 1;
+            window.speechSynthesis.speak(speech);
+        }
+    </script>
+    <div>
+        <input type="text" id="text-to-speech" placeholder="Enter text to speak" />
+    </div>
+    <div>
+        <button type="button" onclick="textToAudio()">Speak</button>
+    </div>
+    <div>
+        <small>> <span style="color: aliceblue;"><b>NOTE:</b>Type text and press the "Speak" button</span></small>
+    </div>
+</body>
+</html>
