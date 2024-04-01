@@ -60,8 +60,8 @@ function reset() {
     // Pick a new random color from array
     pickedColor = pickColor();
     // Change colorDisplay to match picked Color
-    colorDisplay.textContent = pickedColor;
-    resetButton.textContent = "New Colors";
+    colorDisplay.textContent = "GUESS THE COLOUR " + pickedColor;
+    resetButton.textContent = "GUESS THE COLOUR GIVEN ABOVE";
     messageDisplay.textContent = "";
     // Change colors of squares
     for(var i = 0; i < squares.length; i++) {
@@ -72,7 +72,7 @@ function reset() {
             squares[i].style.display = "none";
         }
     }
-    h1.style.background = "steelblue";
+    h1.style.background = "#436850";
 }
 
 resetButton.addEventListener("click", function(){

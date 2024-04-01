@@ -6,7 +6,7 @@ body {
 
 .square {
 	width: 30%;
-	background: purple;
+	background: rgba(195, 5, 5, 0.571);
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.66%;
@@ -26,7 +26,7 @@ h1 {
 	line-height: 1.1;
 	font-weight:normal; 
 	color: rgb(0, 0, 0);
-	background:rgb(85, 255, 207);
+	background:rgb(10, 33, 162);
 	margin: 0;
 	text-transform: uppercase;
 	padding: 20px 0;
@@ -45,12 +45,12 @@ h1 {
 	background-color: white;
 	height: 30px;
 	text-align: center;
-	color: black;
+	color: rgb(255, 255, 255);
 }
 
 .selected {
 	color: white;
-	background:steelblue;
+	background:rgb(211, 49, 9);
 }
 
 button {
@@ -59,7 +59,7 @@ button {
 	text-transform: uppercase;
 	height: 100%;
 	font-weight: 700;
-	color: steelblue;
+	color: rgb(8, 186, 29);
 	letter-spacing: 1px;
 	font-size: inherit;
 	transition: background 0.3s; /* Standard property */
@@ -70,7 +70,7 @@ outline: none; /* Property declaration */
 
 button:hover {
     color: white;
-background: steelblue;
+background: rgb(12, 4, 124);
 }
 #timerDisplay {
     color: white; /* Set the color of the timer text to white */
